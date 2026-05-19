@@ -1,0 +1,17 @@
+name: Card with message Cron Job
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+jobs:
+  print-message:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate Card Message
+        run: |
+          echo "### 🕒 Cron Job Status Card" >> $GITHUB_STEP_SUMMARY
+          echo "---" >> $GITHUB_STEP_SUMMARY
+          echo "> **Message:** This message prints every 5 minutes!" >> $GITHUB_STEP_SUMMARY
+          echo "☀️ **Run Time:** $(date)" >> $GITHUB_STEP_SUMMARY
