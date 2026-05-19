@@ -1,3 +1,4 @@
+[
   {
     "Product_id": null,
     "alert_classification": "not an issue",
@@ -23,3 +24,4 @@
     "alert_classification": "high alert",
     "issue_description": "A specific datetime column in DP056 is broken and zeroed out since yesterday."
   }
+]
