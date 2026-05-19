@@ -1,10 +1,5 @@
 [
   {
-    "Product_id": null,
-    "alert_classification": "not an issue",
-    "issue_description": "User requested shared drive access for a team member."
-  },
-  {
     "Product_id": "DP553",
     "alert_classification": "low alert",
     "issue_description": "IMS data pipeline DP553 has been failing for a couple of days."
