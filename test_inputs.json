@@ -1,0 +1,25 @@
+  {
+    "Product_id": null,
+    "alert_classification": "not an issue",
+    "issue_description": "User requested shared drive access for a team member."
+  },
+  {
+    "Product_id": "DP553",
+    "alert_classification": "low alert",
+    "issue_description": "IMS data pipeline DP553 has been failing for a couple of days."
+  },
+  {
+    "Product_id": "DP125",
+    "alert_classification": "high alert",
+    "issue_description": "Data inconsistency found in DP125 where field AP1_VBAK_VKBUR is filled incorrectly."
+  },
+  {
+    "Product_id": "DP042",
+    "alert_classification": "high alert",
+    "issue_description": "Specific created and issued document numbers are missing from DP042."
+  },
+  {
+    "Product_id": "DP056",
+    "alert_classification": "high alert",
+    "issue_description": "A specific datetime column in DP056 is broken and zeroed out since yesterday."
+  }
