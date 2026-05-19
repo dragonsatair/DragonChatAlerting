@@ -1,0 +1,13 @@
+name: 5-Minute Cron Job
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+jobs:
+  print-message:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Hello Message
+        run: echo "This message prints every 5 minutes!"
